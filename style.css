@@ -1,15 +1,10 @@
-h1 {
-    color: darkorange;
+.win {
+    width: 30vw;
+    height: 70vh;
+    background-color: blueviolet;
 }
 
-.titulo-grande {
-    color: red;
-}
-
-.titulo-grande {
-    color: blueviolet !important;
-}
-
-.titulo-grande {
-    color: chartreuse;
+.titulo {
+    font-size: 3em;
+    color: white;
 }
