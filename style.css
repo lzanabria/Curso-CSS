@@ -1,134 +1,15 @@
-/*Selectores universales*/
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000000;
-}
-
-body {
-    background-image: radial-gradient(circle at 53.69% 7.86%, #ff8487 0, #ff7385 16.67%, #ff5c80 33.33%, #f23c78 50%, #de0871 66.67%, #cc006f 83.33%, #bd0071 100%);
-    margin: 2rem;
-    border-style: ridge;
-    border-color: #000000;
-    padding: 2rem;
-}
-
-
-/*Selectores de tipo*/
 h1 {
-    color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
+    color: darkorange;
 }
 
-h2 {
-    color: #00d9ff;
+.titulo-grande {
+    color: red;
 }
 
-h3 {
-    color: #00351f;
+.titulo-grande {
+    color: blueviolet !important;
 }
 
-p {
-    color: #ffffff;
-    text-align: justify;
-}
-
-input {
-    color: #b3ff00;
-}
-
-
-
-/*Selectores por clases*/
-.t1v2 {
-    color: #b3ff00;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.t2v2 {
-    color: #00ff95;
-}
-
-.t3v2 {
-    color: #ffbb00;
-}
-
-.bv2 {
-    color: #ff008c;
-}
-
-.inv2 {
-    color: #b4b4b4;
-}
-
-.verso {
-    width: 30rem;
-    text-align: center;
-    font-family: cursive;
-    font-size: 2rem;
-}
-
-
-
-/*Selectores por ID*/
-#t1v3 {
-    color: #5e0038;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-style: dotted;
-    padding: 1rem;
-}
-
-
-
-/*Selectores por atributo*/
-[inv="xd"] {
-    color: #ff9900;
-    padding: 1rem;
-    border-style: groove;
-    border-color: #ffffff;
-}
-
-
-
-/*Selectores descendiente*/
-h1 i {
-    color: #630000;
-}
-
-.vers-h p {
-    color: #00ff95;
-}
-
-p i {
-    color: #b3ff00;
-}
-
-
-
-/*Selectores por pseudo-clases*/
-h1:hover {
-    color: #000000;
-}
-
-p:hover {
-    color: #1100ff;
-}
-
-h2:hover {
-    color: #ff0000;
-}
-
-h3:hover {
-    color: #ffffff;
-}
-
-button:hover {
-    color: #00ff00;
-}
-
-input:hover {
-    color: #000000;
-}
-
-i:hover {
-    color: #002544;
+.titulo-grande {
+    color: chartreuse;
 }
