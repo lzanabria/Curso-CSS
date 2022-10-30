@@ -3,15 +3,30 @@
 * {
     font-family: 'Caveat', cursive;
     font-weight: 700;
+    font-size: 30px;
 }
 
 div {
-    width: 200px;
-    height: 200px;
-    background-color: orangered;
-    display: inline-block;
+    width: 120px;
+    height: 120px;
+    display: block;
 }
 
 .caja1 {
-    outline: 10px solid green;
+    background-color: crimson;
+}
+
+.caja2 {
+    background-color: lime;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.caja3 {
+    background-color: orangered;
+}
+
+.caja4 {
+    background-color: deeppink;
 }
