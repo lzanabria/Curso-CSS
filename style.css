@@ -5,17 +5,13 @@
     font-weight: 700;
 }
 
-h1 {
+div {
+    width: 200px;
+    height: 200px;
     background-color: orangered;
-    color: white;
     display: inline-block;
-    padding: 100px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 40px 20px;
-    border-radius: 50px;
-    border: 10px solid green;
-    box-shadow: 20px 10px 15px 0 black;
-    text-shadow: 10px 10px 10px black;
-    transform: rotate(-20deg);
+}
+
+.caja1 {
+    outline: 10px solid green;
 }
