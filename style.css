@@ -7,29 +7,21 @@
 }
 
 div {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     display: block;
 }
 
 .caja1 {
-    background-color: crimson;
+    background-color: deeppink;
 }
 
 .caja2 {
     background-color: lime;
-    position: relative;
-    top: 50px;
-    left: 40px;
-    z-index: 100;
+    position: absolute;
+    left: 200px;    
 }
 
 .caja3 {
     background-color: orangered;
-    position: relative;
-    z-index: 10;
-}
-
-.caja4 {
-    background-color: deeppink;
 }
