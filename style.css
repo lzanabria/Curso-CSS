@@ -6,19 +6,64 @@
     font-size: 30px;
 }
 
-.cont {
-    margin: auto;
-    margin-top: 50px;
-    border: 8px solid blue;
-    background-color: blueviolet;
-    width: 50%;
-    padding: 15px;
-    text-align: justify;
-    color: white;
+.text {
+    padding: 30px;
 }
 
-.cont img {
-    float: left;
-    width: 300px;
-    margin-right: 20px;
+
+/* Pseudoelemento "first-line" */
+#ejemplo1::first-line {
+    color: blue;
+    font-size: 2.5em;
+}
+
+
+/* Pseudoelemento "first-letter" */
+#ejemplo2::first-letter {
+    color: rgb(255, 0, 0);
+    font-size: 5em;
+}
+
+
+/* Pseudoelemento "placeholder" */
+form {
+    margin: 100px auto;
+    display: block;
+    background-color: blueviolet;
+    padding: 50px;
+    width: 50%;
+}
+
+input {
+    padding: 6px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: orangered;
+    background-color: aqua;
+}
+
+
+/* Pseudoelemento "selection" */
+h1::selection {
+    color: indigo;
+    background-color: orangered;
+}
+
+
+/* Pseudoelemento "before and after" */
+b {
+    font-size: 3em;
+    color: deeppink;
+}
+
+b::before {
+    content: "¡Si se puede";
+    color: blue;
+}
+
+b::after {
+    content: "se puede programar!";
+    color: green;
 }
