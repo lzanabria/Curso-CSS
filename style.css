@@ -10,31 +10,12 @@
 }
 
 .t1 {
-    color: rgb(255, 255, 255);
     font-size: 5em;
     font-weight: 1000;
+    color: rgb(255, 255, 255);
     background-color: green;
     display: inline-block;
-    padding-top: 50px;
-    padding-right: 100px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-
-.t2 {
-    color: rgb(255, 14, 14);
-    font-size: 5em;
-    font-weight: 1000;
-    background-color: blue;
-    display: inline-block;
-    padding: 50px;
-}
-
-.t3 {
-    color: rgb(0, 255, 42);
-    font-size: 5em;
-    font-weight: 1000;
-    background-color: blue;
-    display: inline-block;
-    padding: 100px 250px 300px 110px;
+    padding: 100px 300px;
+    height: 500px;
+    width: 500px;
 }
