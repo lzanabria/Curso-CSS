@@ -15,7 +15,8 @@
     color: rgb(255, 255, 255);
     background-color: green;
     display: inline-block;
-    padding: 100px 300px;
+    padding: 100px;
     height: 500px;
     width: 500px;
+    box-sizing: border-box;
 }
