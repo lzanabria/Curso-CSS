@@ -19,12 +19,15 @@ div {
 .caja2 {
     background-color: lime;
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: 50px;
+    left: 40px;
+    z-index: 100;
 }
 
 .caja3 {
     background-color: orangered;
+    position: relative;
+    z-index: 10;
 }
 
 .caja4 {
