@@ -6,11 +6,11 @@
     font-size: 40px;
 }
 
-.caja-fixed {
+div {
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    border: 10px solid purple;
     background-color: orangered;
-    color: white;
-    text-align: justify;
-    position: sticky;
-    top: 0;
-    margin-top: -100px;
+    display: inline-block;
 }
