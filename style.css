@@ -3,15 +3,22 @@
 * {
     font-family: 'Caveat', cursive;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
 }
 
-div {
+.cont {
     margin: auto;
     margin-top: 50px;
-    width: 320px;
-    height: 350px;
-    border: 8px solid orangered;
+    border: 8px solid blue;
     background-color: blueviolet;
-    overflow: scroll;
+    width: 50%;
+    padding: 15px;
+    text-align: justify;
+    color: white;
+}
+
+.cont img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
 }
