@@ -15,4 +15,7 @@ h1 {
     margin: 40px 20px;
     border-radius: 50px;
     border: 10px solid green;
+    box-shadow: 20px 10px 15px 0 black;
+    text-shadow: 10px 10px 10px black;
+    transform: rotate(-20deg);
 }
