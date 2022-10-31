@@ -6,78 +6,42 @@
     font-size: 40px;
 }
 
-
-/* Pseudoclase "hover" */
-.caja1 {
+.caja {
+    margin: 10px;
     width: 300px;
-    height: 50px;
+    height: 550px;
     background-color: orangered;
-    color: white;
-    text-align: center;
-    transition: background 2s, width 1s, height 2s, border 3s;
-}
-
-.caja1:hover {
-    background-color: green;
-    width: 500px;
-    height: 500px;
-    border: 10px solid blue;
+    border: 8px solid black;
 }
 
 
-/* Pseudoclase "link" */
-a:link {
-    color: green;
+/* Contain */
+.caja #img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 
-/* Pseudoclase "visited" */
-a:visited {
-    color: deeppink;
+/* Cover */
+.caja #img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
-/* Pseudoclase "active" */
-.press {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    margin: 30px;
-    text-align: center;
-}
-
-.press:active {
-    background-color: red;
-    color: white;
+/* None */
+.caja #img3 {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
 }
 
 
-/* Pseudoclase "focus" */
-input {
-    width: 200px;
-    margin: 30px;
-    background-color: aquamarine;
-    transition: background 1s, width 1s;
-}
-
-input:focus {
-    background-color: black;
-    width: 700px;
-}
-
-
-/* Pseudoclase "lang" */
-b {
-    display: block;
-    margin: 30px;
-    width: 300px;
-}
-
-b:lang(en) {
-    background-color: green;
-}
-
-b:lang(es) {
-    background-color: deeppink;
-    color: white;
+/* Scale-down */
+.caja #img4 {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
 }
