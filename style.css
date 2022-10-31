@@ -3,67 +3,81 @@
 * {
     font-family: 'Caveat', cursive;
     font-weight: 700;
-    font-size: 30px;
-}
-
-.text {
-    padding: 30px;
+    font-size: 40px;
 }
 
 
-/* Pseudoelemento "first-line" */
-#ejemplo1::first-line {
-    color: blue;
-    font-size: 2.5em;
-}
-
-
-/* Pseudoelemento "first-letter" */
-#ejemplo2::first-letter {
-    color: rgb(255, 0, 0);
-    font-size: 5em;
-}
-
-
-/* Pseudoelemento "placeholder" */
-form {
-    margin: 100px auto;
-    display: block;
-    background-color: blueviolet;
-    padding: 50px;
-    width: 50%;
-}
-
-input {
-    padding: 6px;
-    width: 100%;
-}
-
-input::placeholder {
-    color: orangered;
-    background-color: aqua;
-}
-
-
-/* Pseudoelemento "selection" */
-h1::selection {
-    color: indigo;
+/* Pseudoclase "hover" */
+.caja1 {
+    width: 300px;
+    height: 50px;
     background-color: orangered;
+    color: white;
+    text-align: center;
+    transition: background 2s, width 1s, height 2s, border 3s;
+}
+
+.caja1:hover {
+    background-color: green;
+    width: 500px;
+    height: 500px;
+    border: 10px solid blue;
 }
 
 
-/* Pseudoelemento "before and after" */
-b {
-    font-size: 3em;
+/* Pseudoclase "link" */
+a:link {
+    color: green;
+}
+
+
+/* Pseudoclase "visited" */
+a:visited {
     color: deeppink;
 }
 
-b::before {
-    content: "¡Si se puede";
-    color: blue;
+
+/* Pseudoclase "active" */
+.press {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 30px;
+    text-align: center;
 }
 
-b::after {
-    content: "se puede programar!";
-    color: green;
+.press:active {
+    background-color: red;
+    color: white;
+}
+
+
+/* Pseudoclase "focus" */
+input {
+    width: 200px;
+    margin: 30px;
+    background-color: aquamarine;
+    transition: background 1s, width 1s;
+}
+
+input:focus {
+    background-color: black;
+    width: 700px;
+}
+
+
+/* Pseudoclase "lang" */
+b {
+    display: block;
+    margin: 30px;
+    width: 300px;
+}
+
+b:lang(en) {
+    background-color: green;
+}
+
+b:lang(es) {
+    background-color: deeppink;
+    color: white;
 }
