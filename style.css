@@ -14,34 +14,16 @@
     border: 8px solid black;
 }
 
-
-/* Contain */
 .caja #img1 {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: left;
 }
 
-
-/* Cover */
 .caja #img2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-
-/* None */
-.caja #img3 {
-    width: 100%;
-    height: 100%;
-    object-fit: none;
-}
-
-
-/* Scale-down */
-.caja #img4 {
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
+    object-position: right;
 }
